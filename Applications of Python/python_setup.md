@@ -45,7 +45,7 @@ Next install the required Python packages into your virtual environment by runni
 pip install -r requirements.txt
 ```
 
-**Step 5: Activating and deactivating your virtual environment*
+**Step 5: Activating and deactivating your virtual environment**
 
 The virtual environment can be activated in the future by running the following command from your project's root folder:
 
