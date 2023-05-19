@@ -22,3 +22,41 @@ For Windows, download `get-pip.py` from https://bootstrap.pypa.io/get-pip.py, th
 ```bash
 python get-pip.py
 ```
+
+**Step 3: Set up your virtual environment**
+
+Once Python is installed, you'll want to create a virtual environment for this project. Navigate to this project's root folder in your bash shell, then run:
+
+```bash
+python -m venv .venv
+```
+
+**Step 4: Install required Python packages**
+
+Having completed Step 3, activate the virtual environment from within your project's root folder by running:
+
+```bash
+. .venv/Scripts/activate
+```
+
+Next install the required Python packages into your virtual environment by running the following from this project's root folder:
+
+```bash
+pip install -r requirements.txt
+```
+
+**Step 5: Activating and deactivating your virtual environment*
+
+The virtual environment can be activated in the future by running the following command from your project's root folder:
+
+```bash
+. .venv/Scripts/activate
+```
+
+and deactivated by running the following command from your project's root folder:
+
+```bash
+deactivate
+```
+
+Your command prompt should indicate whether the virtual environment is currently activated by displaying (.venv). Be sure to have the virtual environment activated whenever you want to run the code in this repo.
