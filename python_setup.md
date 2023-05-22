@@ -1,33 +1,25 @@
 # Python Setup:
 ------------------------
 
-
 **Step 1: Install Python**
 
 First, you need to have Python installed on your machine. If you don't have Python installed, you can download it from the official Python website: https://www.python.org/downloads/
 
 **Step 2: Install pip**
 
-Pip is a package manager for Python. It's used to install and manage Python packages. If you installed Python from the official website, pip should have been installed automatically. If not, you can install pip using the following command in your terminal:
-
-For Unix/macOS:
-
-```bash
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-```
+Pip is a package manager for Python. It's used to install and manage Python packages. If you installed Python from the official website, pip should have been installed automatically. If not, you can install pip using the following command in your Command Prompt:
 
 For Windows, download `get-pip.py` from https://bootstrap.pypa.io/get-pip.py, then run:
 
-```bash
+```cmd
 python get-pip.py
 ```
 
 **Step 3: Set up your virtual environment**
 
-Once Python is installed, you'll want to create a virtual environment for this project. Navigate to this project's root folder in your bash shell, then run:
+Once Python is installed, you'll want to create a virtual environment for this project. Navigate to this project's root folder in your Command Prompt, then run:
 
-```bash
+```cmd
 python -m venv .venv
 ```
 
@@ -35,13 +27,13 @@ python -m venv .venv
 
 Having completed Step 3, activate the virtual environment from within your project's root folder by running:
 
-```bash
-. .venv/Scripts/activate
+```cmd
+.venv\Scripts\activate
 ```
 
 Next install the required Python packages into your virtual environment by running the following from this project's root folder:
 
-```bash
+```cmd
 pip install -r requirements.txt
 ```
 
@@ -49,13 +41,13 @@ pip install -r requirements.txt
 
 The virtual environment can be activated in the future by running the following command from your project's root folder:
 
-```bash
-. .venv/Scripts/activate
+```cmd
+.venv\Scripts\activate
 ```
 
 and deactivated by running the following command from your project's root folder:
 
-```bash
+```cmd
 deactivate
 ```
 
