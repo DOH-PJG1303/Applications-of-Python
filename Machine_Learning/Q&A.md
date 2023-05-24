@@ -1,0 +1,31 @@
+#### Python vs. R vs. Tableau
+> What are the advantages of it over SAS? / What advantages (or disadvantages) does it have compared to R or SAS? / How does Python compare to other statistical software (e.g., R Studio, SAS, etc.)? / How is it compared to R and Tableau?
+
+Python has certain advantages over SAS and R. It's a versatile language that can be used for a variety of tasks beyond data analysis, such as web development, automation, and more. Python is also open-source, meaning it's free to use and has a large, active community that contributes to its development. Compared to SAS, Python has better support for modern data science libraries and methods, including machine learning. Compared to R, Python's syntax is often viewed as more straightforward and it's considered better suited to general-purpose programming. However, R and SAS also have their strengths and can be better suited to certain tasks depending on the context.
+
+#### Public Health Applications
+>Our teams use SAS/SQL, how can Python be helpful to EPI work? Is it more compatible with PBI? / How can it be used on a public health setting? / How do you use it for epi needs / Python role in healthcare data / How best to leverage for population health surveillance? / What are the best ways to use Python in epidemiology? / Use case of Python in Public health data analysis
+
+Python can be extremely beneficial in epidemiology and public health. It's well-suited for data cleaning, analysis, and visualization, all of which are common tasks in epidemiology. It can also be used to build predictive models, conduct geospatial analysis, handle large datasets, and more. Python also has libraries for interfacing with databases (e.g., SQLAlchemy for SQL databases), making it possible to integrate with existing data workflows. As of 2021, health departments across the country have expressed the need for more skills in informatics and data analysis, and Python could certainly be part of that solution​1​​2​​3​​4​. Machine Learning and automation are both made very easy with Python.
+
+
+#### Python for Beginners
+> Resources for beginners are needed. / What is the best way to train on Python? / I am a beginner. I would love to get a training on how to read and create codes in python. / Introductory resources? Exercise, group project opportunities to develop skills? / How to get started / less overwhelmed in learning to use Python / I am new to Python / Recommended foundational learning / What resources are out there to learn Python? / Location of Free Trainings, How long does it take to learn on average? / What is the best way to get started with Python? / How to learn and effectively use python for people with no prior knowledge of it in the field of Epidemiology?
+
+There are many resources available to learn Python, especially for beginners. Online platforms like Codecademy, Coursera, and edX offer Python courses. You could also use books like "Learn Python the Hard Way" and "Python Crash Course". Websites like HackerRank and LeetCode offer coding problems to practice your skills. For specific training in epidemiology, universities like the University of Michigan offer courses in computational epidemiology that train students in Python, among other languages​5​​6​. YouTube is also an excellent resource for more visual learners.  I suggest the YouTube channel "Corey Schafer".  Unrelated to Python, he has an **excellent** video on regular expressions, which if you should definitely investigate if that is a new concept to you.
+
+The time it will take you to learn Python is extremely dependent on your starting position.  Someone with no coding experience will likely have a much harder time picking it up than someone with coding experience.  Practical project practice will drastically improve your skills.  Running into errors and troubleshooting is an important part of the learning process. Troubleshoot your errors by looking them up on google and/or StackOverflow.  You can even create your own question if it's unanswered there. Errors are a good thing, trust me!
+
+
+#### Integration Questions
+> "How to utilize it along with SAS, R, and ARC GIS PRO" / How can we integrate Python in other programs such as Tableau and RStudio? / How it works with R and ArcGIS / How do you integrate Python with known systems (i.e. SQL, REDCap, R)? / Integrating Anaconda with R
+
+Python can be integrated with a variety of other tools and languages. For instance, you can use the rpy2 library to run R code within Python, allowing you to utilize the strengths of both languages. In terms of integration with SAS, the saspy Python module allows for a Python interface to SAS. This module provides Python APIs to the SAS system, enabling you to connect to and run your analysis from Python using SAS programming methods.
+
+Regarding GIS tools like ArcGIS, Python is often the scripting language of choice, with ArcGIS Pro using Python 3 for its scripting needs. You can automate map production, manage your data and layers, or even create your own geoprocessing tools using Python scripts.
+
+As for data systems like SQL and REDCap, Python has libraries such as SQLAlchemy and PyCap. SQLAlchemy is a SQL toolkit that gives application developers the full power and flexibility of SQL and can be used to interact with a wide variety of databases. PyCap is a Python module for interacting with the REDCap API, allowing you to extract and import data from REDCap using Python.
+
+In terms of integrating Python with visualization tools like Tableau, the Tableau Server Client (TSC) is a Python library for the Tableau Server REST API. With the TSC library, you can automate many Tableau Server and Tableau Online processes.
+
+Lastly, if you're using Anaconda as your Python distribution, you can also use it to manage your R packages. Anaconda provides an R distribution that can be managed with the conda package manager, just like Python packages. This makes it easier to manage environments that use both Python and R.
